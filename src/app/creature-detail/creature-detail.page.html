@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{creature.commonName}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img src="assets/{{creature.img}}"></ion-img>
+  <ion-list>
+    <ion-item>
+      <ion-label>Class: {{creature.class}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Kingdom: {{creature.kingdom}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-text>Common Name: {{creature.commonName}}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text>Desciption: {{creature.description}}</ion-text>
+    </ion-item>
+  </ion-list>
+  
+  <br/>
+  <ion-button full (click)="backToCreatures()">Back to Creatures</ion-button>
+</ion-content>

@@ -1,5 +1,7 @@
 {
   "name": "creature-catalog",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
